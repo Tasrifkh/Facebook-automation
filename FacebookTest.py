@@ -21,7 +21,7 @@ class facebookloginkey():
     def testlog(self):
         driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
         driver.get("https://www.facebook.com/")
-        driver.find_element(By.ID, "email").send_keys("abc@tasrif.com")
+        driver.find_element(By.ID, "email").send_keys("abc@abc.com")
         driver.find_element(By.ID, "pass").send_keys("123456")
         driver.find_element(By.NAME, "login").click()
 
